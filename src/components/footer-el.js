@@ -20,4 +20,4 @@ class FooterEl extends El {
   }
 }
 
-customElements.define('footer-el', FooterEl);
+customElements.define('footer-el', FooterEl)

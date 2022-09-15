@@ -18,9 +18,7 @@ class GreetingCyclerEl extends El {
 
   render(html) {
     return html`
-      <button onclick=${this.cycle}>
-        ${this.greeting}, World!
-      </button>
+      <button onclick=${this.cycle}>${this.greeting}, World!</button>
     `
   }
 
@@ -44,8 +42,6 @@ class GreetingCyclerEl extends El {
       }
     `
   }
-
 }
 
 customElements.define('greeting-cycler-el', GreetingCyclerEl)
-

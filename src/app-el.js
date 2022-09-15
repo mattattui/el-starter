@@ -1,7 +1,6 @@
 import { El } from '@frameable/el'
 
 class AppEl extends El {
-
   styles(css) {
     return css`
       :host {
